@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#hero{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+video{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.capa
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: hue;
+    background-color: rgb(98, 13, 255);
+}
+
+.container-clock {
+    position: absolute;
+    text-align: right;
+    padding-top: 6rem;
+    margin-right: 4rem;
+    /* background-color: #F2F2F2; */
+    font-family: 'Nunito';
+    
+}
+.container-clock h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #ffffff;
+    
+}
+
+.container-clock p {
+    font-size: 1.5rem;
+    font-family: 'Nunito';
+    color: #ffffff;
+}
